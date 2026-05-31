@@ -2,9 +2,12 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #12131A;
     color: #F2F2F7 ;
+}
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 .header{
