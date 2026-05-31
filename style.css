@@ -3,3 +3,26 @@
     padding: 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+textarea {
+  width: 500px;
+  height: 150px;
+  resize: none; 
+  border-radius: 5px;
+  
+}
+
+#checkbox {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.area-mid {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    align-items: ;
+}
