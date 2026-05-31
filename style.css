@@ -110,21 +110,32 @@ textarea {
 }
 
 #flexbox {
-    margin: 30px auto;
-    max-width: 720px;
     display: flex;
-    justify-content: center;
     gap: 20px;
-    
+
+    width: 100%;
+    max-width: 900px;
+
+    margin: 30px auto;
 }
 
-.total-characters, .total-count, .total-sentence {
+.total-characters,
+.total-count,
+.total-sentence {
     flex: 1;
+
+    height: 140px;
+
     padding: 20px;
-    border-radius: 15px;
-    margin-bottom: 10px;
-    color: #F2F2F7;
+    border-radius: 16px;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    box-sizing: border-box;
 }
+
 .total-characters h2, .total-count h2, .total-sentence h2 {
     font-size: 50px;
     color: #12131A;
@@ -139,13 +150,13 @@ textarea {
 }
 
 .total-characters {
-    background-color: #D3A0FA;
+    background-image: url("assets/bg-violeta.png");
 }
 
 .total-count {
-    background-color: #FF9F45;
+    background-image: url("assets/bg-naranja.png");
 }
 
 .total-sentence {
-    background-color: #FF7A59;
+    background-image: url("assets/bg-salmon.png");
 }
