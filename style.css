@@ -62,8 +62,8 @@ body {
     margin: 20px auto;
     border-left: 1px solid #2A2D3A;
     border-right: 1px solid #2A2D3A;
-    border-top: 1px solid #2A2D3A;
-    border-bottom: 1px solid #2A2D3A;
+    border-top: 3px solid #2A2D3A;
+    border-bottom: 3px solid #2A2D3A;
     padding: 0 40px;
 }
 
@@ -172,7 +172,7 @@ input[type="checkbox"]:checked {
 
 .total-characters h2, .total-count h2, .total-sentence h2 {
     font-size: 60px;
-    color: #12131A;
+    color: var(--bg-main);
     font-weight: bolder;
     background: transparent
 }
@@ -278,4 +278,9 @@ progress::-webkit-progress-value {
 #see-more button:hover {
     transform: translateX(5px);
     color: var(--progress-bar)
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 1.3rem;
 }
