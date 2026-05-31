@@ -67,6 +67,13 @@ button {
     
 }
 
+
+.area-mid {
+    display: flex;
+    justify-content: center;
+}
+
+
 textarea {
     width: 100%;
     max-width: 720px;
@@ -89,13 +96,18 @@ textarea {
 }
 
 #checkbox {
+    margin: 20px;
     display: flex;
     justify-content: space-evenly;
-    
+    align-items: center;   
 }
 
-.area-mid {
+#checkbox-agrupada {
     display: flex;
-    justify-content: center;
+    gap: 15px;
+    align-items: left
+    ;
 }
+
+
 
