@@ -100,13 +100,13 @@ textarea {
     display: flex;
     justify-content: space-evenly;
     align-items: center;   
+
 }
 
 #checkbox-agrupada {
     display: flex;
     gap: 15px;
-    align-items: left
-    ;
+    align-items: left;
 }
 
 #flexbox {
@@ -202,5 +202,31 @@ progress {
 progress::-webkit-progress-value {
     background-color: #D19BFF;
     border-radius: 10px;
+}
+
+#see-more {
+    margin-top: 20px;
+
+    background: transparent;
+    border: none;
+
+    color: white;
+    cursor: pointer;
+}
+
+#see-more button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    color: #F2F2F7;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+#see-more span {
+    font-size: 15px;
 }
 
