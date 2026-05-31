@@ -110,10 +110,42 @@ textarea {
 }
 
 #flexbox {
-    margin: 30px;
+    margin: 30px auto;
+    max-width: 720px;
     display: flex;
     justify-content: center;
     gap: 20px;
     
 }
 
+.total-characters, .total-count, .total-sentence {
+    flex: 1;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    color: #F2F2F7;
+}
+.total-characters h2, .total-count h2, .total-sentence h2 {
+    font-size: 50px;
+    color: #12131A;
+    font-weight: bold;
+    background: transparent
+}
+
+.total-characters p, .total-count p, .total-sentence p {
+    font-size: 16px;
+    color: #12131A;
+    background: transparent;
+}
+
+.total-characters {
+    background-color: #D3A0FA;
+}
+
+.total-count {
+    background-color: #FF9F45;
+}
+
+.total-sentence {
+    background-color: #FF7A59;
+}
